@@ -13,7 +13,6 @@ async function fetchRepo(name) {
   const repo = await response.json();
   return repo;
 }
-
 const Repo = async ({ name }) => {
   const repo = await fetchRepo(name);
 

@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Traversy Media',
+  title: 'TRT Media',
   description: 'Web development tutorials and courses',
   keywords:
     'web development, web design, javascript, react, node, angular, vue, html, css',

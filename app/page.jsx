@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <h1>Welcome To Traversy Meida</h1>
+      <h1 className='text-center text-sm p-2 m-2 font-semibold text-white '>Welcome To Trt media</h1>
       <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </>
